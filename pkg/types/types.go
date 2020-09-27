@@ -32,8 +32,8 @@ type Card struct {
 type Payment struct {
 	ID 		int
 	Amount 	Money
+	Category Category
 }
-
 
 //PaymentSource представляет информацию короткую инфо о картах пользователья 
 type PaymentSource struct {
