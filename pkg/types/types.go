@@ -15,6 +15,8 @@ const (
 
 //PAN представляет номер карты
 type PAN string
+//Status of card
+type Status string
 
 //Card представляет информацию о платежной карты
 type Card struct {
@@ -40,6 +42,7 @@ type PaymentSource struct {
 	Type string // 'card'
 	Number string // номер вида '5058 xxxx xxxx 8888'
 	Balance Money // баланс в дирамах
+	Status	Status //Статус карты
 }
 //Category представляет cобой
 type Category string
