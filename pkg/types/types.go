@@ -35,6 +35,7 @@ type Payment struct {
 	ID 		int
 	Amount 	Money
 	Category Category
+	Status	Status //Статус карты
 }
 
 //PaymentSource представляет информацию короткую инфо о картах пользователья 
@@ -42,7 +43,7 @@ type PaymentSource struct {
 	Type string // 'card'
 	Number string // номер вида '5058 xxxx xxxx 8888'
 	Balance Money // баланс в дирамах
-	Status	Status //Статус карты
+	
 }
 //Category представляет cобой
 type Category string
