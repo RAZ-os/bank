@@ -1,3 +1,3 @@
-module github.com/RAZ-os/bank/v2
+module github.com/RAZ-os/banl/v2
 
 go 1.15
